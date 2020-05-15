@@ -3,7 +3,8 @@ const jsdom = require('mocha-jsdom')
 const path = require('path')
 const babel = require('babel-core');
 
-const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
+const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8');
+const companyName = 'Scuber';
 
 describe('index.js', function () {
   describe('companyName', function () {
